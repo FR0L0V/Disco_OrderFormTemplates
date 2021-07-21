@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<title>Бланк заказа продукции</title>
+		<style>
+			table{
+				font-size: 22px; 
+				font-family:'Gotham'
+			}
+			tr th{
+				color: #FFFFFF; 
+				background-color:#14467C; 
+				font-weight: bold; 
+				min-height: 50px;
+				width: 180px
+			}
+			h1{
+				font-family: 'Gotham'; 
+				font-size: 44px
+			}
+			.border-bottom td{
+				border-bottom:thin solid black
+			}
+			.border td,
+			.border th{
+				border:thin solid black
+			}
+		</style>
+	</head>
+	<body>
+		<table cellspacing="1" id="TBL" > 
+			<tbody> 
+			<tr>
+				<td colspan="7" align="left" style="font-size: 20px; font-style:italic; font-family: 'Gotham';">
+					<br>
+					"ООО "КаВо Дентал Руссланд"<br>                                                                                              
+					7826144707<br>                                                                                           
+					РОССИЯ, 195112, Санкт-Петербург г, Малоохтинский пр-кт,<br>                                              
+					дом № 64, литера В, помещение 26Н<br>                                                                                              
+					+7 (812) 331-86-96"<br><br>   	                    
+				</td>
+				<td colspan="3" rowspan="3">
+					<img src="image.png">
+				</td>
+			</tr>
+			<tr>
+			<td colspan="6" align="left" style="font-size: 20px; font-weight:bold; font-family: 'Gotham';">
+				Internet: www.kerrdental.com/ru-ru/	
+			</td>
+			</tr>
+			<tr class="border-bottom">
+				<td colspan="6">
+				</td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<h1>Бланк заказа продукции</h1>
+				</td>
+				<td style="font-size: 24px; font-weight:bold; font-family: 'Gotham';">
+					№&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;от
+				</td>
+			</tr>
+			<tr>
+				<td colspan="6">
+				</td>
+				<td colspan="3" rowspan="2">
+					Комментарии к заказу необходимо указывать в сопроводительном письме
+				</td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+				<tr align="center" class="border" style="font-weight:bold">
+					<td>Вид сделки</td>
+					<td colspan="8">KERR Основной заказ</td>
+				</tr>
+				<tr align="center" class="border" style="font-weight:bold">
+					<td>Заказчик</td>
+					<td colspan="8"></td>
+				</tr>
+				<tr class="border"> 
+					<th style="width: 150px">Артикул</th> 
+					<th style="width: 400px">Наименование</th> 
+					<th>Цена</th> 
+					<th>Количество</th> 
+					<th>Цена с НДС</th> 
+					<th>Скидка</th> 
+					<th>Цена со скидкой с НДС</th> 
+					<th>Ставка НДС</th>
+					<th>Сумма с НДС</th> 
+				</tr>
+				<tr align="center" class="border">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr align="center" class="border">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr align="center" class="border">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr align="right" class="border" style="font-weight: bold">
+					<td colspan="8">Общая сумма заказа с НДС</td>
+					<td></td>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+					<td colspan="8" align="right" style="font-weight:bold">
+						Суммы указаны в руб.
+					</td>
+				</tr>
+			</tbody>
+		</table><br>
+	</body>
+</html>
